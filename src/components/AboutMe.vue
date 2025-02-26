@@ -26,10 +26,10 @@ const store = useAppStore();
       <q-card-section>
         <div class="text-center">
           <div class="text-h1 text-center q-mb-lg">
-            {{ store.currentDictionary.generalInfo.name }}
+            {{ store.currentDictionary.generalInfo.name }} 
             {{ store.currentDictionary.generalInfo.surname }}
           </div>
-          <div class="text-body1 q-mt-md">
+          <div class="text-body q-mt-md">
             {{ store.currentDictionary.generalInfo.role }}
           </div>
           <div class="text-caption q-mt-sm">
