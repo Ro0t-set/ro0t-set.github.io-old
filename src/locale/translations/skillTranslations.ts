@@ -10,7 +10,7 @@ const skills: Skill[] = [
         level: 0.85
     },
     {
-        name: "Test Driven Design",
+        name: "TDD",
         level: 0.8
     },
     {
@@ -61,7 +61,7 @@ const skills: Skill[] = [
         name: "Go",
         level: 0.9
     }
-];
+].sort((a, b) => b.level - a.level);
 
 export const skillTranslationsEn: SkillTranslations = {
     skillTitle: "Technical Skills",
