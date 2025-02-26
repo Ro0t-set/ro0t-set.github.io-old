@@ -6,7 +6,7 @@ const experiencesEn: Experience[] = [
         company: "Dallara",
         location: "Varano de' Melegari, Italy",
         startDate: "2024",
-        endDate: "Present",
+        endDate: "2025",
         description: "Internship focused on Kubernetes autoscaling algorithms and clean architecture, as part of the master's thesis project."
     },
     {
@@ -14,7 +14,7 @@ const experiencesEn: Experience[] = [
         company: "University of Bologna",
         location: "Cesena, Italy",
         startDate: "2024",
-        endDate: "Present",
+        endDate: "2025",
         description: "Provided support for students with disabilities and specific learning disorders. Reviewed past exams and improved the ability to explain complex concepts effectively."
     },
     {
@@ -41,7 +41,7 @@ const experiencesIt: Experience[] = [
         company: "Dallara",
         location: "Varano de' Melegari, Italia",
         startDate: "2024",
-        endDate: "Presente",
+        endDate: "2025",
         description: "Stage focalizzato sugli algoritmi di autoscaling in Kubernetes e la clean architecture, come parte del progetto di tesi magistrale."
     },
     {
@@ -49,7 +49,7 @@ const experiencesIt: Experience[] = [
         company: "Università di Bologna",
         location: "Cesena, Italia",
         startDate: "2024",
-        endDate: "Presente",
+        endDate: "2025",
         description: "Supporto agli studenti con disabilità e disturbi specifici dell'apprendimento. Revisione di esami passati e miglioramento della capacità di spiegare concetti complessi in modo efficace."
     },
     {
