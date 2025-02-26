@@ -16,8 +16,10 @@ const store = useAppStore();
         class="q-mb-md"
       >
         <q-img
-          src="../assets/profile.webp"
+          src="../assets/profile.jpeg"
           spinner-color="primary"
+          fit="cover"
+          position="center"
           spinner-size="82px"
         />
       </q-avatar>
@@ -43,5 +45,10 @@ const store = useAppStore();
 .about-me {
   max-width: 800px;
   margin: 0 auto;
+}
+.q-avatar .q-img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover;
 }
 </style>

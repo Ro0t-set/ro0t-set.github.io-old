@@ -1,15 +1,15 @@
 import type { GeneralInfoTranslations } from "../locale";
 
 export const generalInfoEn: GeneralInfoTranslations = {
-    name: "Marco",
-    surname: "Rossi",
-    role: "Senior Frontend Developer",
-    description: "Passionate frontend developer with 5+ years of experience specializing in Vue.js and TypeScript. Focused on creating elegant, performant, and user-friendly web applications. Always eager to learn and embrace new technologies.",
+    name: "Tommaso",
+    surname: "Patriti",
+    role: "Software Engineer",
+    description: "Passionate software engineer with experience in Kubernetes, distributed systems, and clean architecture. Interested in system scalability, cloud computing, and modern software development practices.",
 };
 
 export const generalInfoIt: GeneralInfoTranslations = {
-    name: "Marco",
-    surname: "Rossi",
-    role: "Sviluppatore Frontend Senior",
-    description: "Sviluppatore frontend appassionato con oltre 5 anni di esperienza, specializzato in Vue.js e TypeScript. Mi dedico alla creazione di applicazioni web eleganti, performanti e intuitive. Sempre entusiasta di imparare e adottare nuove tecnologie.",
+    name: "Tommaso",
+    surname: "Patriti",
+    role: "Ingegnere del Software",
+    description: "Ingegnere del software appassionato con esperienza in Kubernetes, sistemi distribuiti e clean architecture. Interessato alla scalabilità dei sistemi, al cloud computing e alle moderne pratiche di sviluppo software.",
 };

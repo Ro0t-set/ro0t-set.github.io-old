@@ -2,55 +2,71 @@ import type { Experience, ExperienceTranslations } from "../locale";
 
 const experiencesEn: Experience[] = [
     {
-        title: "Senior Frontend Developer",
-        company: "TechVision Solutions",
-        location: "Remote",
-        startDate: "Jan 2022",
+        title: "Internship - Kubernetes Autoscaling & Clean Architecture",
+        company: "Dallara",
+        location: "Varano de' Melegari, Italy",
+        startDate: "2024",
         endDate: "Present",
-        description: "Leading the frontend development team, implementing modern web applications using Vue.js and TypeScript. Improved application performance by 40% through code optimization and modern development practices."
+        description: "Internship focused on Kubernetes autoscaling algorithms and clean architecture, as part of the master's thesis project."
     },
     {
-        title: "Full Stack Developer",
-        company: "Digital Innovations Lab",
-        location: "Milan, Italy",
-        startDate: "Mar 2020",
-        endDate: "Dec 2021",
-        description: "Developed and maintained multiple web applications using Vue.js, Node.js, and MongoDB. Collaborated with UX designers to implement responsive and accessible user interfaces."
+        title: "Teaching Assistant",
+        company: "University of Bologna",
+        location: "Cesena, Italy",
+        startDate: "2024",
+        endDate: "Present",
+        description: "Provided support for students with disabilities and specific learning disorders. Reviewed past exams and improved the ability to explain complex concepts effectively."
     },
     {
-        title: "Junior Web Developer",
-        company: "WebTech Studios",
-        location: "Rome, Italy",
-        startDate: "Jun 2019",
-        endDate: "Feb 2020",
-        description: "Started as a junior developer working on frontend development with JavaScript and Vue.js. Participated in agile development processes and code reviews."
+        title: "Software Engineer - Manager",
+        company: "Settimana Flessibile Manager",
+        location: "Perugia, Italy",
+        startDate: "2017",
+        endDate: "2019",
+        description: "Developed a Django-based website to manage self-organization for Umbrian high schools. Managed relationships with school administrators, teachers, and students across three different schools."
+    },
+    {
+        title: "Intern - Web Development",
+        company: "InnoTeam",
+        location: "Pesaro, Italy",
+        startDate: "2017",
+        endDate: "2017",
+        description: "First real experience in a web development office. Gained insight into the software production process and used the Django framework for web development."
     }
 ];
 
 const experiencesIt: Experience[] = [
     {
-        title: "Sviluppatore Frontend Senior",
-        company: "TechVision Solutions",
-        location: "Remoto",
-        startDate: "Gen 2022",
+        title: "Stage - Autoscaling Kubernetes e Clean Architecture",
+        company: "Dallara",
+        location: "Varano de' Melegari, Italia",
+        startDate: "2024",
         endDate: "Presente",
-        description: "Guida del team di sviluppo frontend, implementazione di applicazioni web moderne utilizzando Vue.js e TypeScript. Miglioramento delle prestazioni dell'applicazione del 40% attraverso l'ottimizzazione del codice e pratiche di sviluppo moderne."
+        description: "Stage focalizzato sugli algoritmi di autoscaling in Kubernetes e la clean architecture, come parte del progetto di tesi magistrale."
     },
     {
-        title: "Sviluppatore Full Stack",
-        company: "Digital Innovations Lab",
-        location: "Milano, Italia",
-        startDate: "Mar 2020",
-        endDate: "Dic 2021",
-        description: "Sviluppo e manutenzione di multiple applicazioni web utilizzando Vue.js, Node.js e MongoDB. Collaborazione con designer UX per implementare interfacce utente responsive e accessibili."
+        title: "Assistente alla Didattica",
+        company: "Università di Bologna",
+        location: "Cesena, Italia",
+        startDate: "2024",
+        endDate: "Presente",
+        description: "Supporto agli studenti con disabilità e disturbi specifici dell'apprendimento. Revisione di esami passati e miglioramento della capacità di spiegare concetti complessi in modo efficace."
     },
     {
-        title: "Sviluppatore Web Junior",
-        company: "WebTech Studios",
-        location: "Roma, Italia",
-        startDate: "Giu 2019",
-        endDate: "Feb 2020",
-        description: "Iniziato come sviluppatore junior lavorando sullo sviluppo frontend con JavaScript e Vue.js. Partecipazione a processi di sviluppo agile e code review."
+        title: "Ingegnere del Software - Manager",
+        company: "Settimana Flessibile Manager",
+        location: "Perugia, Italia",
+        startDate: "2017",
+        endDate: "2019",
+        description: "Sviluppo di un sito web basato su Django per gestire l'autogestione in alcune scuole umbre. Gestione dei rapporti con dirigenti scolastici, insegnanti e studenti di tre scuole diverse."
+    },
+    {
+        title: "Stage - Sviluppo Web",
+        company: "InnoTeam",
+        location: "Pesaro, Italia",
+        startDate: "2017",
+        endDate: "2017",
+        description: "Prima esperienza in un ufficio di sviluppo web. Acquisito insight nel processo di produzione software e utilizzo del framework Django per lo sviluppo web."
     }
 ];
 

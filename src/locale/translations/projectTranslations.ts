@@ -2,43 +2,43 @@ import type { Project, ProjectTranslations } from "../locale";
 
 const projectsEn: Project[] = [
     {
-        title: "E-commerce Dashboard",
-        description: "Developed a responsive admin dashboard for managing online store operations. Features include real-time sales tracking, inventory management, and customer analytics.",
-        technologies: "Vue.js, TypeScript, Quasar Framework, Chart.js, REST APIs",
-        url: "https://github.com/yourusername/ecommerce-dashboard"
+        title: "PiperChat",
+        description: "Developed a microservices-based Discord clone with WebRTC support for real-time communication.",
+        technologies: "TypeScript, WebRTC, Docker, Vue.js, MongoDB, Node.js, Express, JWT, Socket.io, RabbitMQ, Traefik, Jest, REST API",
+        url: "https://github.com/zucchero-sintattico/piperchat"
     },
     {
-        title: "Task Management System",
-        description: "Built a collaborative task management application with real-time updates and team workspace features.",
-        technologies: "Vue 3, Pinia, Firebase, Tailwind CSS",
-        url: "https://github.com/yourusername/task-manager"
+        title: "Piper-KT",
+        description: "A reimplementation of PiperChat using Hexagonal Architecture and Kubernetes.",
+        technologies: "Kotlin, Kubernetes, Micronaut, Nginx",
+        url: "https://github.com/zucchero-sintattico/piper-kt"
     },
     {
-        title: "Weather Forecast App",
-        description: "Created a modern weather application with location-based forecasts and interactive weather maps.",
-        technologies: "Vue.js, OpenWeatherMap API, Leaflet.js, PWA",
-        url: "https://github.com/yourusername/weather-app"
+        title: "LoRa-Mesh IoT System",
+        description: "Researched and implemented a LoRa-mesh-based system for marine Social IoT. The project was published in IEEE CCNC 2023.",
+        technologies: "LoRa, IoT, Mesh Networks, Embedded Systems",
+        url: "https://ieeexplore.ieee.org/document/10060829"
     }
 ];
 
 const projectsIt: Project[] = [
     {
-        title: "Dashboard E-commerce",
-        description: "Sviluppato una dashboard amministrativa responsive per la gestione delle operazioni del negozio online. Include monitoraggio vendite in tempo reale, gestione inventario e analisi clienti.",
-        technologies: "Vue.js, TypeScript, Quasar Framework, Chart.js, REST APIs",
-        url: "https://github.com/yourusername/ecommerce-dashboard"
+        title: "PiperChat",
+        description: "Sviluppato un clone di Discord basato su microservizi con supporto WebRTC per la comunicazione in tempo reale.",
+        technologies: "TypeScript, WebRTC, Docker, Vue.js, MongoDB, Node.js, Express, JWT, Socket.io, RabbitMQ, Traefik, Jest, REST API",
+        url: "https://github.com/zucchero-sintattico/piperchat"
     },
     {
-        title: "Sistema di Gestione Attività",
-        description: "Realizzato un'applicazione collaborativa per la gestione delle attività con aggiornamenti in tempo reale e funzionalità per workspace di team.",
-        technologies: "Vue 3, Pinia, Firebase, Tailwind CSS",
-        url: "https://github.com/yourusername/task-manager"
+        title: "Piper-KT",
+        description: "Una reimplementazione di PiperChat utilizzando l'Architettura Esagonale e Kubernetes.",
+        technologies: "Kotlin, Kubernetes, Micronaut, Nginx",
+        url: "https://github.com/zucchero-sintattico/piper-kt"
     },
     {
-        title: "App Previsioni Meteo",
-        description: "Creato un'applicazione meteo moderna con previsioni basate sulla posizione e mappe meteorologiche interattive.",
-        technologies: "Vue.js, OpenWeatherMap API, Leaflet.js, PWA",
-        url: "https://github.com/yourusername/weather-app"
+        title: "Sistema IoT LoRa-Mesh",
+        description: "Ricerca e implementazione di un sistema basato su LoRa-mesh per il Social IoT marino. Il progetto è stato pubblicato su IEEE CCNC 2023.",
+        technologies: "LoRa, IoT, Reti Mesh, Sistemi Embedded",
+        url: "https://ieeexplore.ieee.org/document/10060829"
     }
 ];
 

@@ -2,52 +2,64 @@ import type { Skill, SkillTranslations } from "../locale";
 
 const skills: Skill[] = [
     {
-        name: "JavaScript",
-        level: 0.9
-    },
-    {
-        name: "TypeScript",
-        level: 0.8
-    },
-    {
-        name: "Vue.js",
-        level: 0.85
-    },
-    {
-        name: "React",
-        level: 0.7
-    },
-    {
-        name: "HTML5/CSS3",
-        level: 0.9
-    },
-    {
-        name: "Node.js",
-        level: 0.7
-    },
-    {
         name: "Git",
         level: 0.8
     },
     {
-        name: "REST APIs",
-        level: 0.75
+        name: "Agile Development",
+        level: 0.85
     },
     {
-        name: "MongoDB",
-        level: 0.6
+        name: "Test Driven Design",
+        level: 0.8
+    },
+    {
+        name: "Object Oriented Programming",
+        level: 0.95
+    },
+    {
+        name: "Functional Programming",
+        level: 0.9
     },
     {
         name: "Docker",
-        level: 0.5
+        level: 0.9
     },
     {
-        name: "Jest/Vitest",
+        name: "Kubernetes",
         level: 0.7
     },
     {
-        name: "Agile/Scrum",
+        name: "Java",
+        level: 0.9
+    },
+    {
+        name: "Kotlin",
+        level: 0.5
+    },
+    {
+        name: "Python",
         level: 0.8
+    },
+    {
+        name: "JavaScript",
+        level: 0.8
+    },
+    {
+        name: "TypeScript",
+        level: 0.9
+    },
+    {
+        name: "Scala",
+        level: 0.8
+    },
+    {
+        name: "C",
+        level: 0.6
+    },
+    {
+        name: "Go",
+        level: 0.9
     }
 ];
 
