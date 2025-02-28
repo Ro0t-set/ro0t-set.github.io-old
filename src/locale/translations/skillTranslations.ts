@@ -1,67 +1,91 @@
 import type { Skill, SkillTranslations } from "../locale";
 
 const skills: Skill[] = [
+    // Paradigmi e tecniche
     {
-        name: "Git",
-        level: 0.8
+        name: "OOP"
     },
     {
-        name: "Agile Development",
-        level: 0.85
+        name: "FP"
     },
     {
-        name: "TDD",
-        level: 0.8
+        name: "Agile"
     },
     {
-        name: "Object Oriented Programming",
-        level: 0.95
+        name: "TDD"
     },
     {
-        name: "Functional Programming",
-        level: 0.9
+        name: "Microservices"
     },
     {
-        name: "Docker",
-        level: 0.9
+        name: "Cloud Computing"
     },
     {
-        name: "Kubernetes",
-        level: 0.7
+        name: "Git"
     },
     {
-        name: "Java",
-        level: 0.9
+        name: "Docker"
     },
     {
-        name: "Kotlin",
-        level: 0.5
+        name: "Kubernetes"
+    },
+    
+    // Linguaggi di programmazione
+    {
+        name: "Java"
     },
     {
-        name: "Python",
-        level: 0.8
+        name: "Kotlin"
     },
     {
-        name: "JavaScript",
-        level: 0.8
+        name: "Python"
     },
     {
-        name: "TypeScript",
-        level: 0.9
+        name: "JavaScript"
     },
     {
-        name: "Scala",
-        level: 0.8
+        name: "TypeScript"
     },
     {
-        name: "C",
-        level: 0.6
+        name: "Scala - Scala.js"
     },
     {
-        name: "Go",
-        level: 0.9
+        name: "Go"
+    },
+    {
+        name: "C"
+    },
+    {
+        name: "Cuda"
+    },
+    
+    // Framework e librerie
+    {
+        name: "Node.js"
+    },
+    {
+        name: "Vue"
+    },
+    {
+        name: "Express.js"
+    },
+    {
+        name: "Micronaut"
+    },
+    {
+        name: "WebRTC"
+    },
+    {
+        name: "RabbitMQ"
+    },
+    {
+        name: "Nginx"
+    },
+    {
+        name: "Three.js"
     }
-].sort((a, b) => b.level - a.level);
+];
+
 
 export const skillTranslationsEn: SkillTranslations = {
     skillTitle: "Technical Skills",

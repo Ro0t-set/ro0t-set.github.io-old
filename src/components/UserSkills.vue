@@ -26,6 +26,7 @@ const store = useAppStore()
               {{ skill.name }}
             </div>
             <q-linear-progress
+              v-if="skill.level"
               :value="skill.level"
               color="secondary"
               size="4px"

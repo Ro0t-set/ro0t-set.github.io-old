@@ -48,7 +48,7 @@ export interface ProjectTranslations {
 
 export interface Skill {
   name: string;
-  level: number;
+  level?: number;
 }
 
 export interface SkillTranslations {
