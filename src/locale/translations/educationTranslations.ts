@@ -4,10 +4,10 @@ export const educationTranslationsEn: EducationTranslations = {
     educationTitle: "Education",
     educations: [
         {
-            title: "Master's Degree in Computer Science & Engineering",
+            title: "Master's Degree in Computer Science & Engineering | 110/110 with honors",
             location: "University of Bologna, Cesena, Italy",
             startDate: "2022",
-            endDate: "Present",
+            endDate: "2025",
             description: "Master's course with a focus on software engineering and distributed systems.",
             institution: "University of Bologna"
         },
@@ -42,10 +42,10 @@ export const educationTranslationsIt: EducationTranslations = {
     educationTitle: "Istruzione",
     educations: [
         {
-            title: "Laurea Magistrale in Ingegneria e Scienze Informatiche",
+            title: "Laurea Magistrale in Ingegneria e Scienze Informatiche | 110/110 con lode",
             location: "Università di Bologna, Cesena, Italia",
             startDate: "2022",
-            endDate: "Presente",
+            endDate: "2025",
             description: "Corso magistrale con focus su in ingegneria del software e sistemi distribuiti.",
             institution: "Università di Bologna"
         },
