@@ -2,6 +2,14 @@ import type { Experience, ExperienceTranslations } from "../locale";
 
 const experiencesEn: Experience[] = [
     {
+        title: "Freelance Software Developer",
+        company: "Self-employed",
+        location: "Bologna, Italy",
+        startDate: "January 2025",
+        endDate: "Present",
+        description: "Working as an independent software developer specializing in cloud solutions and microservices. Providing consulting services and software development for various clients."
+    },
+    {
         title: "Internship - Kubernetes Autoscaling & Clean Architecture",
         company: "Dallara",
         location: "Varano de' Melegari, Italy",
@@ -36,6 +44,14 @@ const experiencesEn: Experience[] = [
 ];
 
 const experiencesIt: Experience[] = [
+    {
+        title: "Sviluppatore Software Freelance",
+        company: "Libero Professionista",
+        location: "Bologna, Italia",
+        startDate: "Gennaio 2025",
+        endDate: "Presente",
+        description: "Lavoro come sviluppatore software indipendente specializzato in soluzioni cloud e microservizi. Fornitura di servizi di consulenza e sviluppo software per diversi clienti."
+    },
     {
         title: "Stage - Autoscaling Kubernetes e Clean Architecture",
         company: "Dallara",
