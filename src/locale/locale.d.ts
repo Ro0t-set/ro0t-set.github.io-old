@@ -74,8 +74,22 @@ export interface Education {
 }
 
 export interface EducationTranslations {
-  educationTitle: string; 
+  educationTitle: string;
   educations: Education[];
+}
+
+export interface FreelancerProject {
+  title: string;
+  description: string;
+  technologies: string;
+  url: string;
+  client?: string;
+  year?: string;
+}
+
+export interface FreelancerProjectTranslations {
+  freelancerProjectTitle: string;
+  freelancerProjects: FreelancerProject[];
 }
 
 export interface Locale {
@@ -83,6 +97,7 @@ export interface Locale {
   generalInfo: GeneralInfoTranslations;
   education: EducationTranslations;
   experience: ExperienceTranslations;
+  freelancerProjects: FreelancerProjectTranslations;
   projects: ProjectTranslations;
   skills: SkillTranslations;
   contact: ContactTranslations;

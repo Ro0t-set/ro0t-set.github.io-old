@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import NavBar from './components/NavBar.vue'
 import AboutMe from './components/AboutMe.vue'
+import FreelancerProjects from './components/UserFreelancerProjects.vue'
 import Experience from './components/UserExperience.vue'
 import Education from './components/UserEducation.vue'
 import Skills from './components/UserSkills.vue'
@@ -43,8 +44,16 @@ const vScrollReveal = {
     <q-separator />
 
     <section
-      id="education-experience"
+      id="freelancer-projects"
       v-scroll-reveal="'right'"
+    >
+      <FreelancerProjects />
+    </section>
+    <q-separator />
+
+    <section
+      id="education-experience"
+      v-scroll-reveal="'left'"
     >
       <div class="row q-col-gutter-md">
         <div class="col-12 col-md-6">
