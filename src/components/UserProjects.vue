@@ -62,10 +62,12 @@ const store = useAppStore()
   height: 320px;
   display: flex;
   flex-direction: column;
+  overflow: hidden;
 }
 
 .project-card .q-card__section:first-child {
   flex-grow: 1;
+  overflow: hidden;
 }
 
 .description-container {
@@ -73,19 +75,50 @@ const store = useAppStore()
   -webkit-box-orient: vertical;
   overflow: hidden;
   text-overflow: ellipsis;
+  word-wrap: break-word;
+  word-break: break-word;
 }
 
 .ellipsis-2-lines {
   display: -webkit-box;
   -webkit-box-orient: vertical;
   overflow: hidden;
+  word-wrap: break-word;
+  word-break: break-word;
 }
 
 .tech-section {
   min-height: 80px;
+  overflow: hidden;
+}
+
+.tech-section .text-caption {
+  word-wrap: break-word;
+  word-break: break-word;
 }
 
 .q-card__actions {
   margin-top: auto;
+  padding: 8px 16px !important;
+  flex-shrink: 0;
+}
+
+.q-card__actions .q-btn {
+  max-width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@media (max-width: 599px) {
+  .project-card {
+    height: auto;
+    min-height: 300px;
+  }
+
+  .q-card__actions .q-btn {
+    font-size: 0.875rem;
+    padding: 6px 12px;
+  }
 }
 </style>

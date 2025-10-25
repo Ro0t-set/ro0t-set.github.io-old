@@ -113,24 +113,64 @@ const vScrollReveal = {
 
 <style scoped>
 .main-content {
-  padding: 1em;
+  padding: var(--spacing-md);
+  max-width: var(--max-content-width);
+  margin: 0 auto;
 }
+
 section {
-  margin: 3em 0;
-  scroll-margin-top: 60px;
+  margin: var(--spacing-3xl) 0;
+  scroll-margin-top: 80px;
 }
 
+/* Mobile adjustments */
+@media (max-width: 599px) {
+  .main-content {
+    padding: var(--spacing-sm);
+    padding-top: calc(var(--navbar-height-mobile) + var(--spacing-md));
+  }
 
+  section {
+    margin: var(--spacing-xl) 0;
+    scroll-margin-top: var(--navbar-height-mobile);
+  }
+}
+
+@media (min-width: 600px) {
+  .main-content {
+    padding: var(--spacing-lg);
+    padding-top: calc(var(--navbar-height-desktop) + var(--spacing-xl));
+  }
+
+  section {
+    scroll-margin-top: var(--navbar-height-desktop);
+  }
+}
+
+/* Reveal animations */
 .reveal-left,
 .reveal-right {
   opacity: 0;
   transition: transform 0.8s ease-out, opacity 0.8s ease-out;
 }
-.reveal-left { transform: translateX(-100px); }
-.reveal-right { transform: translateX(100px); }
+
+.reveal-left {
+  transform: translateX(-50px);
+}
+
+.reveal-right {
+  transform: translateX(50px);
+}
+
+@media (max-width: 599px) {
+  .reveal-left,
+  .reveal-right {
+    transform: translateY(30px);
+  }
+}
 
 .reveal-active {
-  transform: translateX(0);
+  transform: translateX(0) translateY(0);
   opacity: 1;
 }
 </style>

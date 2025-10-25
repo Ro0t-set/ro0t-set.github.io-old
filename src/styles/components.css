@@ -1,0 +1,112 @@
+/* Component Styles - Global overrides and enhancements for Quasar components */
+
+/* Cards */
+.q-card {
+  border-radius: var(--radius-lg) !important;
+  box-shadow: var(--shadow-md) !important;
+  transition: all var(--transition-base) !important;
+  overflow: hidden !important;
+}
+
+.q-card:hover {
+  box-shadow: var(--shadow-lg) !important;
+  transform: translateY(-2px);
+}
+
+.q-card-section {
+  padding: var(--spacing-lg) !important;
+  overflow-wrap: break-word !important;
+  word-break: break-word !important;
+}
+
+.q-card-actions {
+  overflow: hidden !important;
+}
+
+.q-card-actions .q-btn {
+  max-width: 100% !important;
+}
+
+@media (max-width: 599px) {
+  .q-card-section {
+    padding: var(--spacing-md) !important;
+  }
+}
+
+/* Buttons */
+.q-btn {
+  border-radius: var(--radius-md) !important;
+  font-weight: var(--font-weight-medium) !important;
+  transition: all var(--transition-fast) !important;
+}
+
+/* Lists */
+.q-list {
+  padding: var(--spacing-sm) !important;
+}
+
+.q-item {
+  border-radius: var(--radius-md) !important;
+  margin-bottom: var(--spacing-xs) !important;
+}
+
+/* Timeline */
+.q-timeline__entry {
+  padding-bottom: var(--spacing-xl) !important;
+}
+
+@media (max-width: 599px) {
+  .q-timeline__entry {
+    padding-bottom: var(--spacing-lg) !important;
+  }
+
+  .q-timeline__subtitle {
+    font-size: var(--font-size-xs) !important;
+  }
+
+  .q-timeline__title {
+    font-size: var(--font-size-base) !important;
+  }
+}
+
+/* Separators */
+.q-separator {
+  margin: var(--spacing-xl) 0 !important;
+}
+
+@media (max-width: 599px) {
+  .q-separator {
+    margin: var(--spacing-lg) 0 !important;
+  }
+}
+
+/* Chips */
+.q-chip {
+  border-radius: var(--radius-md) !important;
+  font-weight: var(--font-weight-medium) !important;
+}
+
+/* Responsive Grid Adjustments */
+@media (max-width: 599px) {
+  .q-col-gutter-md {
+    margin-left: calc(-1 * var(--spacing-sm)) !important;
+    margin-right: calc(-1 * var(--spacing-sm)) !important;
+  }
+
+  .q-col-gutter-md > div {
+    padding-left: var(--spacing-sm) !important;
+    padding-right: var(--spacing-sm) !important;
+  }
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Better text rendering */
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}

@@ -8,6 +8,8 @@ import '@fortawesome/fontawesome-free/css/all.css'
 import '@quasar/extras/material-icons/material-icons.css'
 
 import 'quasar/src/css/index.sass'
+import './styles/design-system.css'
+import './styles/components.css'
 
 
 const app = createApp(App)
