@@ -29,9 +29,10 @@ jobs:
         run: |
           npm install
           npm run build
+          touch ./dist/.nojekyll
 
       - name: Copy HTML pages
-        run: cp -r ./dist/* ./site
+        run: cp -r ./dist/* ./site && cp ./dist/.nojekyll ./site/
         
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
