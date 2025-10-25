@@ -7,6 +7,7 @@ export const navbarTranslationsEn: NavbarTranslations = {
   experience: "Experience",
   projects: "Projects",
   skills: "Skills",
+  services: "Services",
   education: "Education"
 };
 
@@ -17,5 +18,6 @@ export const navbarTranslationsIt: NavbarTranslations = {
   experience: "Esperienza",
   projects: "Progetti",
   skills: "Competenze",
+  services: "Servizi",
   education: "Educazione"
 };

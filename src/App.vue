@@ -5,6 +5,7 @@ import FreelancerProjects from './components/UserFreelancerProjects.vue'
 import Experience from './components/UserExperience.vue'
 import Education from './components/UserEducation.vue'
 import Skills from './components/UserSkills.vue'
+import Services from './components/UserServices.vue'
 import Projects from './components/UserProjects.vue'
 import Contact from './components/UserContact.vue'
 import type { DirectiveBinding } from 'vue'
@@ -86,8 +87,16 @@ const vScrollReveal = {
     <q-separator />
 
     <section
-      id="projects"
+      id="services"
       v-scroll-reveal="'right'"
+    >
+      <Services />
+    </section>
+    <q-separator />
+
+    <section
+      id="projects"
+      v-scroll-reveal="'left'"
     >
       <Projects />
     </section>

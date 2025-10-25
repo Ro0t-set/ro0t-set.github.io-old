@@ -51,6 +51,12 @@ function getLabel(tabKey: keyof typeof store.currentDictionary.navbar) {
       @click="onTabClick('skills')"
     />
     <q-tab
+      name="services"
+      icon="fas fa-cogs"
+      :label="getLabel('services')"
+      @click="onTabClick('services')"
+    />
+    <q-tab
       name="projects"
       icon="fas fa-folder"
       :label="getLabel('projects')"

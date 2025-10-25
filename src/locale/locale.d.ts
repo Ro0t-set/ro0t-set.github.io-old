@@ -10,6 +10,7 @@ export interface NavbarTranslations {
   experience: string;
   projects: string;
   skills: string;
+  services: string;
   contact: string;
 }
 
@@ -92,12 +93,26 @@ export interface FreelancerProjectTranslations {
   freelancerProjects: FreelancerProject[];
 }
 
+export interface Service {
+  title: string;
+  description: string;
+  technologies: string;
+  url?: string;
+  category?: string;
+}
+
+export interface ServiceTranslations {
+  serviceTitle: string;
+  services: Service[];
+}
+
 export interface Locale {
   navbar: NavbarTranslations;
   generalInfo: GeneralInfoTranslations;
   education: EducationTranslations;
   experience: ExperienceTranslations;
   freelancerProjects: FreelancerProjectTranslations;
+  services: ServiceTranslations;
   projects: ProjectTranslations;
   skills: SkillTranslations;
   contact: ContactTranslations;
