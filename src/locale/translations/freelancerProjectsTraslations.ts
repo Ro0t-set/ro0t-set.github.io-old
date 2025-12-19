@@ -10,8 +10,8 @@ const freelancerProjectsEn: FreelancerProject[] = [
         year: "2025"
     },
     {
-        title: "DidaFlow",
-        description: "React frontend development for the DidaFlow Project at University of Bologna, focused on creating a platform for preventing university dropout based on predictive analytics and student support systems.",
+        title: "React frontend",
+        description: "React frontend development a project at University of Bologna, focused on creating a platform for preventing university dropout based on predictive analytics and student support systems.",
         technologies: "React, TypeScript, Frontend Development",
         url: "https://bandi.unibo.it/s/disi/disi-incarico-di-lavoro-autonomo-di-natura-libero-professionale-partita-iva-della-durata-di-4-mesi-480-ore-collaborazione-per-attivita-di-sviluppo-software-nell-ambito-di-una-piattaforma-per-la-prevenzione-dell-abbandono-universitario-basata-su",
         client: "University of Bologna",
@@ -37,8 +37,8 @@ const freelancerProjectsIt: FreelancerProject[] = [
         year: "2025"
     },
     {
-        title: "DidaFlow",
-        description: "Sviluppo del frontend React per il Progetto DidaFlow presso l'Università di Bologna, focalizzato sulla creazione di una piattaforma per la prevenzione dell'abbandono universitario basata su analisi predittive e sistemi di supporto agli studenti.",
+        title: "React frontend",
+        description: "Sviluppo del frontend React per un progetto presso l'Università di Bologna, focalizzato sulla creazione di una piattaforma per la prevenzione dell'abbandono universitario basata su analisi predittive e sistemi di supporto agli studenti.",
         technologies: "React, TypeScript, Sviluppo Frontend",
         url: "https://bandi.unibo.it/s/disi/disi-incarico-di-lavoro-autonomo-di-natura-libero-professionale-partita-iva-della-durata-di-4-mesi-480-ore-collaborazione-per-attivita-di-sviluppo-software-nell-ambito-di-una-piattaforma-per-la-prevenzione-dell-abbandono-universitario-basata-su",
         client: "Università di Bologna",
